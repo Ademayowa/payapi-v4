@@ -25,7 +25,7 @@ const Contact = ({ title, info }) => {
           </div>
           <div className='contact__partners col-md-12 col-lg-6 mb-5'>
             <Title title='Join the thousands of innovators already building with us' />
-            <PartnerListtColoured />
+            <PartnerListColoured />
           </div>
         </div>
       </div>
