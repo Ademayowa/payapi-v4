@@ -5,7 +5,7 @@ import './Plans.css';
 const Plans = () => {
   return (
     <section className='plans'>
-      <div className='container px-4'>
+      <div className='container px-4' data-aos='fade-up'>
         <div className='row'>
           {plans.map((plan) => (
             <PlansList key={plan.id} plan={plan} />

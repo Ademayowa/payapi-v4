@@ -19,7 +19,7 @@ const Team = () => {
 
   return (
     <section className='team'>
-      <div className='container'>
+      <div className='container' data-aos='fade-up'>
         <div className='row'>
           <div className='team__main col-md-12 d-flex justify-content-between'>
             {teams.map((team, index) => {

@@ -5,7 +5,7 @@ import './Ready.css';
 const Ready = () => {
   return (
     <section className='ready'>
-      <div className='container'>
+      <div className='container' data-aos='fade-up'>
         <div className='row'>
           <div className='col-md-9 mx-md-auto col-lg-6'>
             <h2 className='ready__title'>Ready to start</h2>

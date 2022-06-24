@@ -3,7 +3,7 @@ import './Form.css';
 const Form = () => {
   return (
     <div className='pb-5'>
-      <form className='forms'>
+      <form className='forms' data-aos='fade-right'>
         <div className='form-group'>
           <input
             type='text'

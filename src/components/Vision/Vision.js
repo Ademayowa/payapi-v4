@@ -3,7 +3,7 @@ import './Vision.css';
 
 const Vision = () => {
   return (
-    <section className='vision'>
+    <section className='vision' data-aos='fade-up'>
       <VisionList
         title='Our Vision'
         text="Our main goal is to build beautiful consumer experiences along with developer-friendly infrastructure. The result is an intelligent tool that gives everyone the ability to create amazing products that solve big problems. We are deeply focused on democratizing financial services through technology.'"

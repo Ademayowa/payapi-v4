@@ -30,7 +30,7 @@ const PartnerListColoured = () => {
   ]);
 
   return (
-    <div className='partnersColoured pl-lg-5' style={grid}>
+    <div className='partnersColoured pl-lg-5' style={grid} data-aos='fade-left'>
       {partners.map((partner, index) => (
         <div key={index}>
           <img src={partner.img} alt='partners' className='img-fluid' />
