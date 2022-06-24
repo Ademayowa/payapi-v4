@@ -1,0 +1,13 @@
+@media (max-width: 767px) {
+  .partnerList {
+    line-height: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .partnerList,
+  .partnersColoured {
+    grid-template-columns: repeat(2, 1fr) !important;
+    text-align: center;
+  }
+}

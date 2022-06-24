@@ -1,0 +1,29 @@
+.plans {
+  margin-left: -15px !important;
+  margin-bottom: -80px;
+}
+
+.btn__request {
+  background-color: transparent !important;
+  color: #36536b;
+  border: 1px solid #36536b;
+  text-transform: capitalize !important;
+  border-radius: 30px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: -0.115px;
+}
+
+.btn__request:hover {
+  background-color: #36536b !important;
+  color: var(--white-color);
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .plans {
+    text-align: center;
+  }
+}

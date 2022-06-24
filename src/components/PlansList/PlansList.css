@@ -1,0 +1,51 @@
+.plansList__price {
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: -0.43px;
+  color: #36536b;
+}
+
+.plansList__title {
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.246px;
+  color: #ba4270;
+}
+
+.plansList__text {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  color: #36536b;
+}
+
+.plansList__check h5 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  color: #36536b;
+}
+
+.plansList__check svg {
+  color: #ba4270;
+  font-size: x-large;
+  margin-top: -2px;
+}
+
+@media (max-width: 768px) {
+  .offers {
+    display: grid !important;
+    justify-content: center;
+  }
+
+  .plansList__text {
+    display: none !important;
+  }
+}

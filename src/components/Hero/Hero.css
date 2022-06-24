@@ -1,0 +1,149 @@
+.hero {
+  padding-bottom: 20px !important;
+}
+
+.hero__lead h2 {
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 72px;
+  color: #36536b;
+  letter-spacing: -0.5538px;
+}
+
+.hero__marginTop {
+  margin-top: -150px;
+}
+
+.hero__shapeDesktop,
+.hero__shapeTablet,
+.hero__shapePhone {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.hero input::placeholder,
+.hero__contact {
+  color: #36536b !important;
+}
+
+.hero__contact {
+  padding-left: 30px;
+}
+
+.hero input[type='text'] {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.hero .form-control {
+  padding: 25px !important;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.hero__bold {
+  font-weight: 600;
+  color: #6c8294;
+}
+
+/* Style for form on hero: start */
+.formInput .btn-success {
+  z-index: 100;
+}
+/* Style for form on hero: end */
+
+@media (max-width: 1200px) {
+  .hero__lead span {
+    word-break: keep-all;
+  }
+}
+
+/* Large screens (992px) */
+@media (min-width: 992px) {
+  .hero {
+    padding-top: 100px;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero__marginTop {
+    margin-top: 5px !important;
+  }
+
+  .hero__lead h2 {
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -0.369px;
+    margin-top: -80px;
+  }
+}
+
+/* Tablet screens (768px) */
+@media (max-width: 768px) {
+  .hero__shapeDesktop {
+    display: none;
+  }
+
+  .formInput {
+    margin-top: 20px !important;
+  }
+}
+
+@media (min-width: 769px) {
+  .hero__shapeTablet {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero__lead h2 {
+    margin-top: -130px;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -0.369px;
+  }
+
+  .hero__contact {
+    padding-left: 100px;
+    margin-top: 10px !important;
+  }
+
+  .hero__phone {
+    margin-left: 20px;
+    position: relative;
+    top: -60px;
+  }
+}
+
+/* Mobile screens (576px, 425px, 375px, 320px) */
+@media (max-width: 576px) {
+  .hero__lead h2 {
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.246px;
+  }
+}
+
+@media (max-width: 426px) {
+  .hero__contact {
+    padding-left: 0;
+    text-align: center;
+  }
+}
+
+@media (max-width: 360px) {
+  .hero__shapeTablet {
+    display: none;
+  }
+}
+
+@media (min-width: 361px) {
+  .hero__shapePhone {
+    display: none;
+  }
+}

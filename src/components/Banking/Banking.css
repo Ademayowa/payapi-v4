@@ -1,0 +1,13 @@
+.banking {
+  padding: 80px 15px 0 15px;
+  margin-bottom: -50px;
+}
+
+.banking h4 {
+  color: #36536b;
+  font-weight: bold;
+}
+
+.banking p {
+  color: #6c8294;
+}

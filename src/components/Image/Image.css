@@ -1,0 +1,27 @@
+.aboutImg {
+  margin-top: 100px;
+}
+
+.aboutImg__shape {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: -1;
+}
+
+.about__fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+@media (max-width: 768px) {
+  .aboutImg__shape {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .aboutImg {
+    margin-top: 30px;
+  }
+}

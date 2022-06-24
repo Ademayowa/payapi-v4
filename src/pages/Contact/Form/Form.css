@@ -1,0 +1,15 @@
+.forms .form-control {
+  border-left: none !important;
+  border-right: none !important;
+  border-top: none !important;
+  background-color: #eef3f9;
+}
+
+.forms__pb {
+  padding-bottom: 80px;
+  word-break: break-all;
+}
+
+.forms__update {
+  color: var(--navy-blue);
+}

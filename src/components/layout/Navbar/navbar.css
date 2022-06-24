@@ -1,0 +1,13 @@
+.navbar {
+  box-shadow: none !important;
+}
+
+.navbar-nav > li {
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #36536b;
+}
