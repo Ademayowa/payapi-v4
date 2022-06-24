@@ -1,6 +1,4 @@
 import React from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 import Img from '../../img/hero-phone.png';
 import Shape from '../../img/hero-shape.png';
 import Shape1 from '../../img/hero-shape-tablet.png';
