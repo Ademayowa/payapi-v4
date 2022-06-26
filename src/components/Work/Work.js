@@ -9,14 +9,16 @@ import './Work.css';
 const Work = ({ title, info }) => {
   return (
     <section className='work'>
-      <div className='container text-white' data-aos='fade-up'>
+      <div className='container text-white'>
         <div className='row'>
           <div className='work__partners col-md-8 mx-md-auto col-lg-6 order-md-6 order-lg-12 mb-5'>
             <PartnerList />
           </div>
 
           <div className='work__about col-md-8 mx-md-auto col-lg-6 order-md-12 order-lg-6'>
-            <h2 className='work__title'>Who we work with</h2>
+            <h2 className='work__title' data-aos='fade-up'>
+              Who we work with
+            </h2>
             <Title
               className='work__stories'
               info='Today, millions of people around the world have successfully

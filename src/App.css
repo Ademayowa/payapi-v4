@@ -43,12 +43,6 @@ h2 {
   background-color: #da6d97;
 }
 
-@media (max-width: 576px) {
-  .alignRight {
-    margin-left: 20px !important;
-  }
-}
-
 .fa-bars {
   color: var(--navy-blue);
 }
