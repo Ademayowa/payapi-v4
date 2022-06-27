@@ -12,9 +12,9 @@ const Footer = () => {
       <div className='footer__wrapper container'>
         <div className='footer__left'>
           <div className='footer__logo'>
-            <a href='!#'>
+            <Link to='/'>
               <img src={Logo} alt='logo' className='img-fluid' />
-            </a>
+            </Link>
           </div>
 
           <div className='footer__item text-white'>
