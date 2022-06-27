@@ -11,3 +11,9 @@
 .nav-link {
   color: #36536b;
 }
+
+@media (max-width: 576px) {
+  .alignRight .btn__demo {
+    margin-left: 20px;
+  }
+}
