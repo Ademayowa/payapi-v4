@@ -2,6 +2,13 @@ import Img1 from './img/finances.svg';
 import Img2 from './img/banking.svg';
 import Img3 from './img/payments.svg';
 
+import Tesla from './img/coloured-teslsa.png';
+import Microsoft from './img/coloured-microsoft.png';
+import Hp from './img/coloured-hp.png';
+import Oracle from './img/coloured-oracle.png';
+import Google from './img/coloured-google.png';
+import Nvidia from './img/coloured-nvidia.png';
+
 export const data = [
   {
     img: Img1,
@@ -17,5 +24,26 @@ export const data = [
     img: Img3,
     title: 'Consumer Payments',
     info: 'It’s easier to set up secure bank payments with us through a flow designed with the user experience in mind. Customers could instantly authenticate their account.',
+  },
+];
+
+export const partners = [
+  {
+    img: Tesla,
+  },
+  {
+    img: Microsoft,
+  },
+  {
+    img: Hp,
+  },
+  {
+    img: Oracle,
+  },
+  {
+    img: Google,
+  },
+  {
+    img: Nvidia,
   },
 ];

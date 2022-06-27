@@ -50,7 +50,7 @@ const Form = () => {
             className='form-check-input'
             id='exampleCheck1'
           />
-          <label className='forms__update form-check-label' for='exampleCheck1'>
+          <label className='forms__update form-check-label'>
             Stay up-to-date with company announcements and updates to our API
           </label>
         </div>

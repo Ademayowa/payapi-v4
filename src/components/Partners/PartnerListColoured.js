@@ -1,34 +1,8 @@
-import React, { useState } from 'react';
-import Tesla from '../../img/coloured-teslsa.png';
-import Microsoft from '../../img/coloured-microsoft.png';
-import Hp from '../../img/coloured-hp.png';
-import Oracle from '../../img/coloured-oracle.png';
-import Google from '../../img/coloured-google.png';
-import Nvidia from '../../img/coloured-nvidia.png';
+import React from 'react';
+import { partners } from '../../data';
 import './PartnerList.css';
 
 const PartnerListColoured = () => {
-  const [partners] = useState([
-    {
-      img: Tesla,
-    },
-    {
-      img: Microsoft,
-    },
-    {
-      img: Hp,
-    },
-    {
-      img: Oracle,
-    },
-    {
-      img: Google,
-    },
-    {
-      img: Nvidia,
-    },
-  ]);
-
   return (
     <div className='partnersColoured pl-lg-5' style={grid} data-aos='fade-left'>
       {partners.map((partner, index) => (
